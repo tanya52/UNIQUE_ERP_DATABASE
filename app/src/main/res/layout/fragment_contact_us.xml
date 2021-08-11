@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/contact_us" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:drawableLeft="@drawable/call"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="  +91-9811339995"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"
+        android:drawableLeft="@drawable/email"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="  info@uniqueerp.co.in"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="390dp"
+        android:drawableLeft="@drawable/webbsite"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text=" https://www.uniqueerp.co.in/"
+        android:textAlignment="center"
+        android:textColor="#1F34AA"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="440dp"
+        android:drawableLeft="@drawable/location"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="
+
+                                            401-B, 4th Floor, Vardhman Star Shop Mall, Sector -19, Faridabad, Haryana-121002"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+
+
+</FrameLayout>

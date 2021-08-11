@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".about_us">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO UNIQUE ERP"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="370dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="20dp"
+        android:text="Unique ERP is an IT Software Training Institute in Faridabad, has years of experience in digital marketing, SAP training, web designing, web development and software training. Our training programs have developed a brilliant scope for all the students. It is our ambition to build and implement sophisticated career solutions for students. As we focus on providing SAP and IT software designing &amp; training courses mainly based on live projects."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Helping the student to grow in a professional manner is what we commit at Unique ERP. The various courses which we offer to the students have been planned as per industry-specific requirements. We mainly train students with live projects so that they can have a glimpse of the professional world. Our experienced faculties coin their experience and blend them with their expertise to teach student perfectly and making them ready for the professional IT world."/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginRight="20dp"
+        android:text="Our students always master the skills for IT Infrastructure Management, followed with On-Job industry training and stipends. Unique ERP training institute mainly try to make your exciting career options in Web Designing, Web Development, SAP, Software Development and Digital Marketing."
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/about_logo" />
+</FrameLayout>
