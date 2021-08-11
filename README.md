@@ -1,6 +1,9 @@
 # UNIQUE_ERP_DATABASE
 
 Institutional Application using SQLite Database for Registration
+
+
+
 Unique ERP is an application made for an educational institution. It introduces about the institution, the provided courses, placements, registration of applicants and  contact details. Basically, it's major purpose is  storing the registration details of the applicants in Sqlite Database. Further, this application is majorly designed using Tab Fragments, Image Slider, List View, Scroll View, Hyperlink etc.
 
 
